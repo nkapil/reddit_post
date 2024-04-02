@@ -11,5 +11,5 @@ Robot-Framework Browser Library Keyword Definitation https://marketsquare.github
 # USAGE
 1. Provide Test Data like redit post url, credentials etc in testData\reddit_data.yaml
 2. run the robot command from terminal
-3. robot tests/PostCommentOnReddit.robot
+3. **_robot tests/PostCommentOnReddit.robot_**
     This will run whole robot file which contains only 1 Test Case

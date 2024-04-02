@@ -2,7 +2,7 @@
 Library           Browser
 Library           Collections
 Library           OperatingSystem
-Variables        ${EXECDIR}/testData/credentials.yaml
+Variables         ${EXECDIR}/testData/reddit_data.yaml
 
 *** Variables ***
 

@@ -4,11 +4,14 @@ Library           Collections
 Library           OperatingSystem
 Variables        ${EXECDIR}/testData/credentials.yaml
 
-~/
 *** Variables ***
 
 *** Test Cases ***
-Open Website with Playwright
+Simple Test Case to Post Reddit Comment
+    [DOCUMENTATION]     This Test Case opens a reddit post url, logins into reddit 
+                    ...  and then post a comment. Username, password, Comment and other test data are defined 
+                    ...  in a yaml file stored in testData/reddit_data.yaml
+                    
     Set Test Variable    ${reddit_comment}    ${reddit.comment_to_type}
     New Browser    browser=${browser.name}    headless=False
     New Context    viewport={'width': ${browser.width}, 'height': ${browser.height}}

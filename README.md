@@ -1,5 +1,5 @@
 # Reddit Automation
-This project automates logging into Reddit and posting a comment using Robot Framework and Browser Library(Playwright) based.
+This project automates logging into Reddit and posting a comment using Robot Framework and Browser Library(Playwright).
 
 # Installation Instruction
 1. Install Python >3.7
